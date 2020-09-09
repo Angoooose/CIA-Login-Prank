@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/751960627756531882/753270571348918462/19d19fc7c721a67216971acab2fddfbf.png);
+    background-color: black;
+}
+
+#ciaimg {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 39%;
+    left: 44%;
+}
+
+#torimg {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 12%;
+    left: 1%;
+}
+
+#torname {
+    position: absolute;
+    top: 18.3%;
+    left: 2.2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#ircimg {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 1.2%;
+    left: 6%;
+}
+
+#ircname {
+    position: absolute;
+    top: 7%;
+    left: 6.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#fileimg1 {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 70px;
+    width: 70px;
+}
+
+#filename1 {
+    position: absolute;
+    top: 7%;
+    left: .6%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
