@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://cdn.discordapp.com/attachments/751960627756531882/753270571348918462/19d19fc7c721a67216971acab2fddfbf.png);
+    background-image: url(./images/worldmap.png);
     background-color: black;
 }
 
@@ -17,6 +17,7 @@ body {
     width: 70px;
     top: 12%;
     left: 1%;
+    cursor: pointer;
 }
 
 #torname {
@@ -33,6 +34,7 @@ body {
     width: 70px;
     top: 1.2%;
     left: 6%;
+    cursor: pointer;
 }
 
 #ircname {
@@ -43,15 +45,16 @@ body {
     color: white;
 }
 
-#fileimg1 {
+#folderimg1 {
     position: absolute;
     top: 1%;
     left: 1%;
     height: 70px;
     width: 70px;
+    cursor: pointer;
 }
 
-#filename1 {
+#foldername1 {
     position: absolute;
     top: 7%;
     left: .6%;
