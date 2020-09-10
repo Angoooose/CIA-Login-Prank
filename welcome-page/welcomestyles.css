@@ -1,5 +1,5 @@
 body {
-    background-image: url(./images/worldmap.png);
+    background-image: url(../images/worldmap.png);
     background-color: black;
 }
 
@@ -60,4 +60,30 @@ body {
     left: .6%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+.box {
+    width: 1px;
+    padding: 40px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: black;
+    border-radius: 24px;
+    border: 2px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.box [id="progressBar"] {
+   position: absolute; 
+   width: 0%;
+   height: 100px;
+   height:24px;
+   background: black;
+   border-radius: 24px;
+   border-color: red;
 }

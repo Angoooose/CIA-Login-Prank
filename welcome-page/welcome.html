@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CIA Secure Login</title>
+        <link rel="stylesheet" href="welcomestyles.css" media="screen"/>
+    </head>
+    <body>
+        <img src="../images/cialogo.png" id="ciaimg" href="#">
+        <img src="../images/toricon.png" id="torimg" href="#" onclick="startProgressBar()">
+        <img src="../images/exeicon.png" id="ircimg" href="#" onclick="startProgressBar()">
+        <img src="../images/foldericon.png" id="folderimg1" href="#" onclick="startProgressBar()">
+        <p id="foldername1" href="#">Thunderbird</p>
+        <p id="torname" href="#">Tor</p>
+        <p id = "ircname" href="#">irc.exe</p>
+        <div id="progressBar" class="box" href="#" style="width:0%">0%</div>
+        <div id="enterkey" href="#">ERROR: Permision Dennied!</div>
+    </body>
+    <script>
+        function startProgressBar() {
+          var elem = document.getElementById("progressBar");   
+          var width = 0;
+          var id = setInterval(frame, 80);
+          function frame() {
+            if (width >= 100) {
+              clearInterval(id);
+            } else {
+              width++; 
+              elem.style.width = width + '%'; 
+              elem.innerHTML = width * 1  + '%';
+            }
+          }
+        }
+    </script>
+</html>
