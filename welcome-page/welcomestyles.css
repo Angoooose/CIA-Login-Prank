@@ -11,7 +11,7 @@ body {
     left: 44%;
 }
 
-#torimg {
+#Tor {
     position: absolute;
     height: 70px;
     width: 70px;
@@ -28,7 +28,7 @@ body {
     color: white;
 }
 
-#ircimg {
+#irc\.exe {
     position: absolute;
     height: 70px;
     width: 70px;
@@ -45,7 +45,7 @@ body {
     color: white;
 }
 
-#folderimg1 {
+#Thunderbird {
     position: absolute;
     top: 1%;
     left: 1%;
@@ -63,11 +63,12 @@ body {
 }
 
 .box {
-    width: 1px;
+    width: 600px;
+    height: 300px;
     padding: 40px;
     position: absolute;
-    top: 70%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     background: black;
@@ -76,14 +77,41 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: white;
+    opacity: 0.9;
 }
 
-.box [id="progressBar"] {
+.box div[id="progressbaroutline"] {
+    position: absolute; 
+    margin: 120px auto;
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.box div[id="progressbar"] {
+    position: absolute; 
+    margin: 120px auto;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+ }
+
+.box div[id="loadingmessage"] {
    position: absolute; 
-   width: 0%;
-   height: 100px;
-   height:24px;
-   background: black;
+   width: 570px;
+   height: 200px;
+   color: red;
    border-radius: 24px;
-   border-color: red;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 60px;
+   text-align: center;
 }

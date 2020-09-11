@@ -3,32 +3,20 @@
     <head>
         <title>CIA Secure Login</title>
         <link rel="stylesheet" href="welcomestyles.css" media="screen"/>
+        <script type="text/javascript" src="progressBar.js"></script>
     </head>
     <body>
         <img src="../images/cialogo.png" id="ciaimg" href="#">
-        <img src="../images/toricon.png" id="torimg" href="#" onclick="startProgressBar()">
-        <img src="../images/exeicon.png" id="ircimg" href="#" onclick="startProgressBar()">
-        <img src="../images/foldericon.png" id="folderimg1" href="#" onclick="startProgressBar()">
+        <img src="../images/toricon.png" id="Tor" href="#" onclick="startProgressBar()" onclick="popUpProggressBar()">
+        <img src="../images/exeicon.png" id="irc.exe" href="#" onclick="startProgressBar()">
+        <img src="../images/foldericon.png" id="Thunderbird" href="#" onclick="startProgressBar()">
         <p id="foldername1" href="#">Thunderbird</p>
         <p id="torname" href="#">Tor</p>
         <p id = "ircname" href="#">irc.exe</p>
-        <div id="progressBar" class="box" href="#" style="width:0%">0%</div>
-        <div id="enterkey" href="#">ERROR: Permision Dennied!</div>
+        <div class="box" stlye=""> 
+        <div id="progressbar" href="#" style="width:0%">0%</div>
+        <div id="progressbaroutline" href="#" style="width:90%"></div>
+        <div id="loadingmessage">Loading irc.exe...</div>
+       </div>
     </body>
-    <script>
-        function startProgressBar() {
-          var elem = document.getElementById("progressBar");   
-          var width = 0;
-          var id = setInterval(frame, 80);
-          function frame() {
-            if (width >= 100) {
-              clearInterval(id);
-            } else {
-              width++; 
-              elem.style.width = width + '%'; 
-              elem.innerHTML = width * 1  + '%';
-            }
-          }
-        }
-    </script>
 </html>
