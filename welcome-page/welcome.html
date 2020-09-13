@@ -3,20 +3,20 @@
     <head>
         <title>CIA Secure Login</title>
         <link rel="stylesheet" href="welcomestyles.css" media="screen"/>
-        <script type="text/javascript" src="progressBar.js"></script>
     </head>
     <body>
         <img src="../images/cialogo.png" id="ciaimg" href="#">
-        <img src="../images/toricon.png" id="Tor" href="#" onclick="startProgressBar()" onclick="popUpProggressBar()">
-        <img src="../images/exeicon.png" id="irc.exe" href="#" onclick="startProgressBar()">
-        <img src="../images/foldericon.png" id="Thunderbird" href="#" onclick="startProgressBar()">
+        <img src="../images/toricon.png" id="Tor" href="#" onclick="startProgressBar('Tor')">
+        <img src="../images/exeicon.png" id="irc.exe" href="#" onclick="startProgressBar('irc.exe')">
+        <img src="../images/foldericon.png" id="Thunderbird" href="#" onclick="startProgressBar('Thunderbird')">
         <p id="foldername1" href="#">Thunderbird</p>
         <p id="torname" href="#">Tor</p>
         <p id = "ircname" href="#">irc.exe</p>
-        <div class="box" stlye=""> 
+        <div class="box" id="progressbox" stlye=""> 
         <div id="progressbar" href="#" style="width:0%">0%</div>
         <div id="progressbaroutline" href="#" style="width:90%"></div>
         <div id="loadingmessage">Loading irc.exe...</div>
        </div>
     </body>
+    <script type="text/javascript" src="progressBar.js"></script>
 </html>
