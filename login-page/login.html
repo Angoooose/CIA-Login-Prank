@@ -6,14 +6,14 @@
     </head>
     <body>
         <img src="../images/cialogo.png" id="img">
-        <form class="box" action="../welcome-page/welcome.html" method="post">
+        <div class="box">
             <h1>CIA Secure Terminal</h1>
             <input type="password" name="aid" placeholder="Agent ID">
             <input type="password" name="pword" placeholder="Agent Password">
-            <input id="login" type="submit" value="Login">
+            <button id="login" type="submit" value="Login" onclick="loginCheck()">Login</button>
             <p id="noticeMessage" href="#">You are entering a secured United States Government system, which may be used only for authorized personnel. Modification of any information on the system is subject to criminal prosecution. The agency monitors all usage of this system. All persons are hereby notified that use of this system constitutes consent to such monitoring and audition.</p>
             <p id="noticeMessage" href="#">User IP address: 192.515.1.83 | DNS Key: Validating...</p>
             <script></script>
-        </form>
+        </div>
     </body>
 </html>

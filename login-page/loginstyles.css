@@ -45,7 +45,7 @@ h1 {
     transition: 0.25s;
 }
 
-.box input[type = "submit"]{
+.box button[id = "login"]{
     border:0;
     background: none;
     display: block;
@@ -62,7 +62,7 @@ h1 {
     border: 2px solid red;
 }
 
-.box input[type = "submit"]:hover{
+.box button[type = "submit"]:hover{
     background: #EC3A0A;
 }
 
