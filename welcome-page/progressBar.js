@@ -8,6 +8,9 @@ function updateLoadingMessage(name) {
   elem.innerHTML = `Loading ${name}...`;
   if (name === 'Thunderbird') {
     elem.style.fontSize = '50px';
+    elem.style.left = '10%';
+  } else if (name === 'irc.exe') {
+    elem.style.left = '9%';
   }
 }
 
